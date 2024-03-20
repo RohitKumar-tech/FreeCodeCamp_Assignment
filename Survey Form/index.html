@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="title">Survey Form</h1>
+      <p id="description">This is a survay form for the review of the Acadmics Teachers.</p>
+    <form id="survey-form">
+      <fieldset>
+        <legend>Personal Details</legend>
+        <label id="name-label">Name:
+          <input type="text" placeholder="First Name" id="name" required />
+          <input type="text" placeholder="Last Name" id="name" required />
+        </label>
+
+        <label>Age:
+          <input type="number" placeholder="Enter your age">
+        </label>
+        
+          <label>Gender:
+            <input type=radio value="Male" name="gender" />Male
+            <input type=radio value="Male" name="gender" />Female
+            <input type=radio value="Male" name="gender" />Other
+          </label>
+
+          <label id="email-label">Email-ID:
+            <input type="email" placeholder="Enter Your Email" id="email" required />
+          </label>
+
+        <label id="number-label">Phone No:
+          <input type="number" placeholder="Enter Your Number" id="number" min="10" max="15" required />
+        </label>
+        
+        <label>Address:
+          <input type="text" placeholder="Street Address">
+          <input type="text" placeholder="City">
+          <input type="text" placeholder="State">
+          <input type="number" placeholder="Postal/Zip Code">
+          <select id="dropdown">
+            <option>Select Your Country</option>
+            <option>India</option>
+            <option>Algeria</option>
+            <option>Australia</option>
+            <option>Brazil</option>
+            <option>Canada</option>
+            <option>Egypt</option>
+            <option>France</option>
+            <option>United Arab Emirates</option>
+            <option>United Kingdom</option>
+            <option>United States of America</option>
+          </select>
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>How did you hear about us?</legend>
+        <input type=checkbox value="Referral">Referral
+        <input type=checkbox value="Website">Our Website
+        <input type=checkbox value="Advertisement">Advertisement
+        <input type=checkbox value="Newspaper">Newspaper
+        <input type=checkbox value="Friends">Friends/Relatives
+        <input type=checkbox value="Others">Others
+        </fieldset>
+
+      <fieldset>
+        <legend>Review for OODP teacher?</legend>
+        <input type=radio value="Excellent" name="Review">Excellent
+        <input type=radio value="Very-good" name="Review">Very good
+        <input type=radio value="Good" name="Review">Good
+        <input type=radio value="Bad" name="Review">Bad
+        <input type=radio value="Ntbc" name="Review">Need to be changed
+        </fieldset>
+
+              <fieldset>
+        <legend>Review for Math teacher?</legend>
+        <input type=radio value="Excellent" name="Review">Excellent
+        <input type=radio value="Very-good" name="Review">Very good
+        <input type=radio value="Good" name="Review">Good
+        <input type=radio value="Bad" name="Review">Bad
+        <input type=radio value="Ntbc" name="Review">Need to be changed
+        </fieldset>
+
+              <fieldset>
+        <legend>Review for Chemistry teacher?</legend>
+        <input type=radio value="Excellent" name="Review">Excellent
+        <input type=radio value="Very-good" name="Review">Very good
+        <input type=radio value="Good" name="Review">Good
+        <input type=radio value="Bad" name="Review">Bad
+        <input type=radio value="Ntbc" name="Review">Need to be changed
+        </fieldset>
+
+              <fieldset>
+        <legend>Review for Biology teacher?</legend>
+        <input type=radio value="Excellent" name="Review">Excellent
+        <input type=radio value="Very-good" name="Review">Very good
+        <input type=radio value="Good" name="Review">Good
+        <input type=radio value="Bad" name="Review">Bad
+        <input type=radio value="Ntbc" name="Review">Need to be changed
+        </fieldset>
+
+              <fieldset>
+        <legend>Review for Language teacher?</legend>
+        <input type=radio value="Excellent" name="Review">Excellent
+        <input type=radio value="Very-good" name="Review">Very good
+        <input type=radio value="Good" name="Review">Good
+        <input type=radio value="Bad" name="Review">Bad
+        <input type=radio value="Ntbc" name="Review">Need to be changed
+        </fieldset>
+
+              <fieldset>
+        <legend>Review for POE teacher?</legend>
+        <input type=radio value="Excellent" name="Review">Excellent
+        <input type=radio value="Very-good" name="Review">Very good
+        <input type=radio value="Good" name="Review">Good
+        <input type=radio value="Bad" name="Review">Bad
+        <input type=radio value="Ntbc" name="Review">Need to be changed
+        </fieldset>
+
+        <h3>Provide your valuable feedback</h3>
+        <textarea></textarea>
+
+        <button type=submit id="submit">
+          Submit
+        </button>
+    </form>
+
+</body>
+</html>

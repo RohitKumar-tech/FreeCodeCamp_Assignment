@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="device = device-width , initial-scale=1.0">
+    <title>React Documentation</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+          <nav id="navbar">
+        <Header>React</header>
+        <ul>
+          <li>
+            <a class="nav-link" href="#Getting_started">Getting started</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#Prerequisites">Prerequisites</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#Create_a_New_React_App">Create a New React App</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#Hello_World">Hello World</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#Introducing_JSX">Introducing JSX</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#Rendering_Elements">Rendering Elements</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#Components_and_Props">Components and Props</a>
+          </li>
+          </ul>
+        </nav>
+    
+    <main id="main-doc">
+      <section class="main-section" id="Getting_started">
+        <Header>Getting started</Header>
+        <article>
+          <p>React is a JavaScript library for building user interfaces. Learn what React is all about on our homepage or in the tutorial.</p>
+          <p>Unlike the other frameworks covered in this module, React does not enforce strict rules around code conventions or file organization. This allows teams to set conventions that work best for them, and to adopt React in any way they would like to. React can handle a single button, a few pieces of an interface, or an app's entire user interface.
+</p>
+<ul>
+  <li>React posses declarative approach</li>
+  <li>React helps in reusing the code</li>
+  <li>React works on component based approach </li>
+  <li>React is a framework not a library</li>
+  </ul>
+          </article>
+
+        </section>
+              <section class="main-section" id="Prerequisites">
+                <header>Prerequisites</header>
+                <article>
+                  <p>Familiarity with the core HTML, CSS, and JavaScript languages, knowledge of the terminal/command line.</p>
+                  <p>React uses an HTML-in-JavaScript syntax called JSX (JavaScript and XML). Familiarity with both HTML and JavaScript will help you to learn JSX, and better identify whether bugs in your application are related to JavaScript or to the more specific domain of React.</p>
+                </article>
+        </section>
+
+              <section class="main-section" id="Create_a_New_React_App">
+              <header>Create a New React App</header>
+              <article>
+                <p>Use an integrated toolchain for the best user and developer experience</p>
+                <p>This page describes a few popular React toolchains which help with tasks like:</p>
+                <code>
+                  <img src="https://drive.google.com/file/d/1ITdseKR7tIUaQD8-2eJ99je2gcD41TcQ/view?usp=drive_link" alt="New React project">
+                  
+                  </code>
+                <ul>
+                  <li>Scaling to many files and components.</li>
+                  <li>Using third-party libraries from npm.</li>
+                  <li>Detecting common mistakes early.</li>
+                  <li>Live-editing CSS and JS in development.</li>
+                  <li>Optimizing the output for production.</li>
+                  </ul>
+              </article>
+        </section>
+
+              <section class="main-section" id="Hello_World">
+        <header>Hello World</header>
+        <article>
+          <p>The smallest React example looks like this:</p>
+          <code>
+          <img src="https://drive.google.com/file/d/1OU11gWx8Mg69A1URDjFmiDDkYM9KUaTl/view?usp=drive_link" alt="Hello world code">
+          </code>
+        </article>
+        </section>
+
+              <section class="main-section" id="Introducing_JSX">
+                <header>Introducing JSX</header>
+                <article>
+                  <p>Consider this variable declaration:</p>
+                  <code>
+                  <img src="https://drive.google.com/file/d/14_PoQ7JS-3aCodWHxcTatE6xclUucOvw/view?usp=drive_link" alt="JSX">
+                  </code>
+                  <p>This funny tag syntax is neither a string nor HTML.
+
+It is called JSX, and it is a syntax extension to JavaScript. We recommend using it with React to describe what the UI should look like. JSX may remind you of a template language, but it comes with the full power of JavaScript.
+
+JSX produces React “elements”. We will explore rendering them to the DOM in the next section. Below, you can find the basics of JSX necessary to get you started.</p>
+                  </article>
+        </section>
+
+        <section class="main-section" id="Rendering_Elements">
+          <header>Rendering Elements</header>
+          <article>
+            <p>Elements are the smallest building blocks of React apps.<p>
+              <p>An element describes what you want to see on the screen:</p>
+              <code>
+              <img src="https://drive.google.com/file/d/1IuR7CHaeDNRr-bkB4WmhdfyV5LO7-BPb/view?usp=drive_link" alt="Rendering Element">
+              </code>
+              <p>We call this a “root” DOM node because everything inside it will be managed by React DOM.</p>
+              <p>Applications built with just React usually have a single root DOM node. If you are integrating React into an existing app, you may have as many isolated root DOM nodes as you like.</p>
+          </article>
+          </section>
+
+          <section class="main-section" id="Components_and_Props">
+            <header>Components and Props</header>
+            <article>
+              <p>Components let you split the UI into independent, reusable pieces, and think about each piece in isolation. This page provides an introduction to the idea of components. You can find a detailed component API reference here.
+</p>
+<p>
+Conceptually, components are like JavaScript functions. They accept arbitrary inputs (called “props”) and return React elements describing what should appear on the screen.</p>
+<code>
+<img scr="https://drive.google.com/file/d/1Z7_wn1AcC4FukbmKMrroxZynMv5ePYaj/view?usp=drive_link" alt="Components">
+</code>
+<p>
+  This function is a valid React component because it accepts a single “props” (which stands for properties) object argument with data and returns a React element. We call such components “function components” because they are literally JavaScript functions.
+
+You can also use an ES6 class to define a component
+</p>
+    </article>
+        </section>
+      </main>
+  </body>
+  </html>
